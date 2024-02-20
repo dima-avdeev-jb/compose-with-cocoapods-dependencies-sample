@@ -24,6 +24,10 @@ kotlin {
             baseName = "shared"
             isStatic = true
         }
+        pod(name = "MMKV") {
+            version = "1.2.16"
+            moduleName = "MMKV"
+        }
     }
 
     sourceSets {
