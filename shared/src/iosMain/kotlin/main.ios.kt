@@ -8,5 +8,5 @@ fun MainViewController() = ComposeUIViewController { App() }
 
 @OptIn(ExperimentalForeignApi::class)
 fun usePodLibrary() {
-    MMKV.defaultMMKV();
+    MMKV.defaultMMKV()
 }
