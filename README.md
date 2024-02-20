@@ -1,19 +1,6 @@
-# [Compose Multiplatform](https://github.com/JetBrains/compose-multiplatform) iOS CocoaPods example
+Sample of how to use Cocoapod library with Compose
 
-This example showcases using Kotlin Multiplatform shared module in Swift as a CocoaPods framework.
+Take a look at [build.gradle.kts](shared%2Fbuild.gradle.kts) and [main.ios.kt](shared%2Fsrc%2FiosMain%2Fkotlin%2Fmain.ios.kt)
 
-The official Kotlin documentation provides more information on working with CocoaPods:
-* [CocoaPods overview and setup](https://kotlinlang.org/docs/native-cocoapods.html);
-* [Add dependencies on a Pod library](https://kotlinlang.org/docs/native-cocoapods-libraries.html);
-* [Use a Kotlin Gradle project as a CocoaPods dependency](https://kotlinlang.org/docs/native-cocoapods-xcode.html);
+You can set your TEAM_ID here [Config.xcconfig](iosApp%2FConfiguration%2FConfig.xcconfig) or in Xcode project.
 
-
-## Setting up your development environment
-
-To setup the environment, please consult these [instructions](https://github.com/JetBrains/compose-multiplatform-template#setting-up-your-development-environment).
-
-## How to run
-
-Choose a run configuration for an appropriate target in IDE and run it.
-
-![run-configurations.png](screenshots/run-configurations.png)
